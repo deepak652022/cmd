@@ -1,0 +1,43 @@
+1. git config --global user.name "deepak"
+2. git config --global user.email "deepak@gmail.com"
+3.git config --global --edit
+4. esc :wq
+5. git init (initialise repo)
+6. in git, first we tract then commit
+7. git add hello.txt (now file in staging area) that holds file before 
+commit($ git commit -m " first commit") to repository
+8. git commit -m " first commit"
+
+
+9. git log (shows all the changes done by whom with unique hashkey)
+
+commit 6f4f7155278b3443bd4e13bbd57e2ff5f34a001e (HEAD -> master)
+Author: deepak <deepak.ciet161@gmail.com>
+Date:   Sun Dec 10 23:41:18 2023 +0530
+
+
+10. git add . (put all files in staging area)
+
+11. git checkout hashkey/master
+
+12.git branch dev, deepak/multiply
+
+
+13.  git checkout deepak/multiply
+Switched to branch 'deepak/multiply'
+
+14. git merge deepak/multiply
+
+15. git remote -v
+
+
+16.git remote add origin https://github.com/deepak652022/gitlearn.git
+		origin  https://github.com/deepak652022/gitlearn.git (fetch)
+		origin  https://github.com/deepak652022/gitlearn.git (push)
+
+// 17. git branch -M main
+18. git push -u origin main
+19. git push
+
+20. git push -u origin dev
+
